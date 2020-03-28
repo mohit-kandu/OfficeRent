@@ -129,13 +129,19 @@
 </div>
 <!-- Contact Us Ends -->
 
-<!-- Footer Begins -->
-<script>var element = document.getElementById("aaa");
+<!-- Smooth Scroll Script -->
+<script>
+document.querySelectorAll('a[href^="#aaa"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-  element.scrollIntoView();
-  element.scrollIntoView(false);
-  element.scrollIntoView({block: "end"});
-  element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});</script>
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<!-- Footer Begins -->
 <footer class="footer">
           <div class="container bottom_border">
             <div class="row">
