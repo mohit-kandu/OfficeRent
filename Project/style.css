@@ -141,6 +141,9 @@ a,
 	font-family: helvetica;
 	padding-top: 50px;
 }
+.list-group-item{
+	color: black;
+}
 
 .meetingimg{
 	background-image: url(meeting.jpg);
@@ -166,6 +169,17 @@ a,
 	background-repeat: no-repeat;
 	height: 400px;
 	margin-right: 3%;
+}
+/* Contact Us */
+.aaa{
+    height: 250px;
+    width: 87%;
+	margin-left: 8%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+.carou{
+    color: white;
 }
 
 /*Footer CSS*/
