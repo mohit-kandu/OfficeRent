@@ -2,46 +2,37 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- link for the icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="module2.js"></script>
 <title></title>
 </head>
 <body>
 	   <!--*******navbar*******-->
     <section class="first-section">   
-    <div class="container navcolor">  
-      <nav
-      class="navbar navbar-expand-lg navbar-dark  navbar-transparent container"
-    >
-      <a class="navbar-brand" href="#">Brand</a>
-      <button
-        class="navbar-toggler active"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon active"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item navcolor">
-            <a class="nav-link active" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Log In/Sign Up</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">  
+      <nav class="navbar navbar-expand-lg navbar transparent navbar-inverse">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="navbar-nav ml-auto topnav" id="navbar">
+      <a class="nav-item nav-link" href="#" class="aa">Home</a>
+      <a class="nav-item nav-link" href="#">About us</a>
+      <a class="nav-item nav-link" href="#">Services</a>
+      <a class="nav-item nav-link" href="#aaa">Contact</a>
+      <a class="nav-item nav-link" href="#">Log In/Sign Up</a>
+    </div>
+      </nav>
     </div>
     <div >
       <h1 class="contents">Best office space search here</h1>
@@ -63,7 +54,7 @@
 		</div>
 		<!-- OFFICE -->
 		<div class="m2p1">
-			<div class="off" id="off"><h2>OFFICE SPACE</h2>
+			<div class="off"><h2>OFFICE SPACE</h2>
 				<h4>Work in a relaxing environment.</h4>
 				Fully furnished, IT-enabled workspace 
 				that cen grow with your Business - whether for a person
@@ -73,7 +64,7 @@
 			<div class="offimg"><a href></a></div>
 		</div>
 		<!-- COWORK -->
-		<div class="m2p2" id="co">
+		<div class="m2p2">
 			<div class="coworkimg"><a href></a></div>
 			<div class="co"><h2>Co-Working</h2>
 				<h4>A sociable shared office space.</h4> It's first come first served, so make sure you grab your seat first or reserve it in advance.<br><br>
@@ -82,7 +73,7 @@
 		</div>
 		<!-- Meeting Spaces -->
 		<div class="m2p3">
-			<div class="meet" id="meet"><h2>Meeting Space</h2>
+			<div class="meet"><h2>Meeting Space</h2>
 				<h4>Gather up and brainstorm ideas.</h4>
 				<ul class="list-group list-group-flush">
 					  <li class="list-group-item">For Meetings, Presentations or pitching ideas.</li>
@@ -95,7 +86,7 @@
 			</div>
 			<div class="meetingimg"><a href></a></div>
 		</div>
-		<div class="m2p4" id="lounge">
+		<div class="m2p4">
 			<div class="loungeimg"><a href></a></div>
 			<div class="co"><h2>Buisness Lounge</h2>
 				<h4>Working while tevelling, simplified.</h4> Informal drop-in meeting spaces with secure WiFi, access to a printer, scanner and other amenities.<br><br>
@@ -110,7 +101,7 @@
 <!-- End Of Description -->
 
 <!-- Contact Us Begins -->
-<div class="aaa" id="contact">
+<div class="aaa" id="aaa">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -141,100 +132,64 @@
 </div>
 <!-- Contact Us Ends -->
 
-<!-- Footer Begins -->
-
-<footer class="footer">
-          <div class="container bottom_border">
-            <div class="row">
-              <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-                   <h5 class="headin5_amrc col_white_amrc pt2">WORKSPACE</h5>
-             
-                   <ul class="footer_ul_amrc">
-                        <li><a href="#off">Office Spaces</a></li>
-                        <li><a href="#co">Coworking Spaces</a></li>
-                        <li><a href="#meet">Meeting Space</a></li>
-                        <li><a href="#lounge">Buisness Lounge</a></li>
-                   </ul>  
-            
-                </div>
-            
-            
-                <div class=" col-sm-4 col-md  col-6 col">
-                    <h5 class="headin5_amrc col_white_amrc pt2">LOCATIONS</h5>
-            
-                    <ul class="footer_ul_amrc">
-                      <li><a href="#">Delhi</a></li>
-                      <li><a href="#">Bangalore</a></li>
-                      <li><a href="#">Mumbai</a></li>
-                      <li><a href="#">Hyderabad</a></li>
-                      <li><a href="#">Pune</a></li>
-                      <li><a href="#">Ranchi</a></li>
-                   </ul>
-            
-                </div>
-            
-            
-                <div class=" col-sm-4 col-md  col-6 col">
-                  <h5 class="headin5_amrc col_white_amrc pt2">COMMUNITY</h5>
-            
-                    <ul class="footer_ul_amrc">
-                       <li><a href="#">Blogs</a></li>
-                       <li><a href="#">Events</a></li>
-                       <li><a href="#">News and Media</a></li>
-                       <li><a href="#">Member Benefits</a></li>
-                       <li><a href="#">Member Access</a></li>
-           
-                    </ul>
-            
-                </div>
-            
-            
-                <div class=" col-sm-4 col-md  col-12 col">
-                   <h5 class="headin5_amrc col_white_amrc pt2">ABOUT US</h5>
-            
-            
-                    <ul class="footer_ul_amrc">
-                       <li><a href="#">About us</a></li>
-                       <li><a href="#">Agents and Partners</a></li>
-                       <li><a href="#">The Team</a></li>
-
-                    </ul>
-            
-                </div>
-            </div>
-         </div>
-            
-            
-           <div class="container">
-              <br>
-               <p class="text-left ">Copyright @2020</p>
-               <p class="text-left " >Designed and developed by <a href="#">Your Company Name</a></p>
-            
-               <ul class="social_footer_ul  ">
-                   <li><a href="https://www.facebook.com/"><img class ="logo  " src=".\logo\facebook.png"><img></a></li>
-                   <li><a href="https://www.twitter.com/"><img class ="logo" src=".\logo\twitter.png"><img></a></li>
-                   <li><a href="https://www.linkedin.com/"><img class ="logo" src=".\logo\linkedin.png"><img></a></li>
-            
-               </ul>
-
-                <p class="text-right  " ><a href="#">Terms and Conditions </a><span>|</span><a href="#"> Privacy Policy </a><span>|</span><a href="#"> Sitemap</a></p>
-            
-           
-            </div>
-            
-        </footer>
-<!-- Script -->
+<!-- Smooth Scroll Script -->
 <script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-          e.preventDefault();
+document.querySelectorAll('a[href^="#aaa"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+<!-- Footer Begins -->
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> <h3>About the company</h3></span><p class="cont"> We merge imagination and technology to help brands grow in an age of digital transformation.
+    </p></p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p>Address</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+00) 0000 000 000</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p class="mail"><a href="#"> office@company.com</a></p>
+    </div>
+  </div>
   
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
-          });
-      });
-  });
-  </script>
+  <div class="footer-right col-md-4 col-sm-6">
+    <h2> Company<span> logo</span></h2>
+    <br>
+    <br>
+    <br>
+    <p class="name"> Company Name &copy; 2020 - All Rights Reserved</p>
+    <p class="menu">
+      <a href="#"> Disclaimer</a> |
+      <a href="#"> Privacy Policy</a>|
+      <a href="#">Terms & Conditions </a> |
+      <a href="#">Sitemap </a>
+      
+    </p>
+   
+  </div>
+</footer>
+
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
